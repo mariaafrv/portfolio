@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+header {
+  background-color: black;
+}
+
+.cabecalho {
+  display: flexbox;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cabecalho-menu-item:hover{
+  text-decoration: underline;
+}
