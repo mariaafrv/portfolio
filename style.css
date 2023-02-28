@@ -7,6 +7,11 @@
     text-decoration: none;
   }
 
+body {
+  font-style: normal;
+  font-family: 'Sarala', sans-serif;
+  background-color: black;
+}
 
 .cabecalho {
   display: flex;
@@ -44,4 +49,45 @@
   text-decoration-color: #028779;
   text-underline-offset: 6px;
   padding-top: 2px;
+}
+
+.conteudo-apresentacao-escrito {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 100px;
+  margin-left: 80px;
+  width: 400px;
+}
+
+.conteudo-apresentacao-titulo {
+  display: flex;
+  margin-bottom: 30px;
+  color: #fff;
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.conteudo-apresentacao-texto {
+  color: #fff;
+  text-align: justify;
+  font-size: 15px;
 }
