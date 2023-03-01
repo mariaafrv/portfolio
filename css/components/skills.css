@@ -1,6 +1,6 @@
 .main-skills{
     display: flex;
-  
+  flex-direction: column;
 
 }
 
@@ -8,13 +8,22 @@
     display: flex;
     justify-content: center;
     color: white;
-    margin-top: 20px;
+    margin-top: 12vh;
     font-size: 40px;
 }
 
 .skills-tech {
     display: flex;
+    margin-left: 100px;
+    margin-top: 40px;
+    align-items: center;
    
+}
+
+.skills-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .tech-title {
@@ -24,8 +33,27 @@
 .skills-tech-logo {
     height: 80px;
     width: 80px;
-    background-color: blue;
+    border: 2px solid #fff;
     padding: 10px 10px 10px 10px;
     margin-right: 20px;
+}
+
+.progress-bar {
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 2px solid #b53c68;
+    height: 20px;
+}
+
+.progress-bar::-webkit-progress-value {
+    background-color: #B5446E;
+}
+
+.progress-bar::-webkit-progress-bar {
+    background-color: #fff;
+}
+
+progress {
+    appearance: none;
 }
 
