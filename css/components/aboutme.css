@@ -1,0 +1,53 @@
+.conteudo-apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.conteudo-apresentacao-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 400px;
+  }
+  
+  .conteudo-apresentacao-titulo {
+    display: flex;
+    margin-bottom: 30px;
+    color: #fff;
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  
+  .conteudo-apresentacao-texto {
+    color: #fff;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .banner {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 10px;
+  }

@@ -15,6 +15,7 @@
   .menu-header {
     text-align: right;
     display: flex;
+    margin-right: 30px;
   }
   
   .menu-header-item {

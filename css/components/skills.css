@@ -1,0 +1,31 @@
+.main-skills{
+    display: flex;
+  
+
+}
+
+.title-skills {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.skills-tech {
+    display: flex;
+   
+}
+
+.tech-title {
+    color: white;
+}
+
+.skills-tech-logo {
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    padding: 10px 10px 10px 10px;
+    margin-right: 20px;
+}
+
