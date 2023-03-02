@@ -1,4 +1,4 @@
-.header {
+#header {
     display: flex;
     background-color: black;
     justify-content: space-between;
@@ -29,6 +29,7 @@
     font-weight: 500;
     margin-right: 40px;
   }
+
   
   .menu-header-item:hover{
     text-decoration: underline;
