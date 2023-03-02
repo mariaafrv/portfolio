@@ -1,6 +1,12 @@
+
 .main-skills{
     display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  width: 880px;
+
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -8,8 +14,9 @@
     display: flex;
     justify-content: center;
     color: white;
-    margin-top: 12vh;
-    font-size: 40px;
+    margin-top: 10vh;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
 .skills-tech {
@@ -17,17 +24,18 @@
     margin-left: 100px;
     margin-top: 40px;
     align-items: center;
-   
 }
 
 .skills-info {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .tech-title {
     color: white;
+    padding-bottom: 5px;
 }
 
 .skills-tech-logo {

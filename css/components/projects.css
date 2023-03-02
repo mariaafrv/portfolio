@@ -1,0 +1,16 @@
+.title-projects {
+    color: white;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    background-color: #028779;
+    width: 280px;
+    height: 280px;
+}
+
+.landing-page-image {
+    height: 180px;
+    width: 180px;
+    margin-top: 40px;
+}
